@@ -24,3 +24,9 @@ When it has browsed our list if the head =None then our pointer allows an advanc
 # To run my program I just use an extension (run or debugging and run ) in Pycharm a software adapted for Python.
 
 # Question3
+To begin with we have created an empty list (when we run we will see a list with None )
+then we will assign indexes to the parents for us to determine the children for example: If we have a parent with index 1 and we want to assign an index to his children is the index of the parent multiple by 2 plus 1 so we have an index assigned to the child. for this we have the (method insert_left and right)
+
+To find the searched person we just need his index (# method_find#).
+To remove a data we just need the index but to make it work we have the remove method which allows us to go through the list each time we have a None until we determine what we want.
+
